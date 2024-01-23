@@ -36,12 +36,12 @@ onMounted(() => {
 </script>
 <template>
   <div class="flex items-center justify-center font-dm-sans bg-gradient-to-r from-green-100 from-[-30%] via-blue via-[30%] to-black w-screen h-screen">
-   <div ref="content" class="opacity-0">
-    <h1 ref="groupname" class="relative lowercase z-10 font-dorsa text-9xl text-white">
+   <div ref="content" class="opacity-0 w-full md:w-1/2 lg:1/3">
+    <h1 ref="groupname" class="relative lowercase text-center z-10 font-dorsa text-7xl md:text-9xl text-white whitespace-nowrap">
       Sages from Earth
     </h1>
 
-    <ul ref="artists" class="-mt-1 flex space-x-4 justify-center items-center bg-black/20 rounded-lg p-6">
+    <ul ref="artists" class="-mt-1 flex space-x-1 md:space-x-4 justify-center items-center md:bg-black/20 rounded-lg p-6">
       <li class="artist">
         <NuxtLink to="https://instagram.com/barilutalo" target="_blank" class="inline-flex bg-red text-white px-2 py-1 rounded-sm hover:scale-110 focus:scale-110 duration-300">
           @barilutalo
@@ -58,7 +58,7 @@ onMounted(() => {
       </li>
     </ul>
 
-    <p ref="soelink" class="text-center mt-2 relative z-20">
+    <p ref="soelink" class="text-center md:mt-2 relative z-20">
       <NuxtLink to="https://instagram.com/sagesfromearth" target="_blank" class="inline-flex bg-black text-white px-6 py-2 rounded-md hover:scale-110 focus:scale-110 duration-300">
         @sagesfromearth
       </NuxtLink>
