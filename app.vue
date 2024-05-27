@@ -52,7 +52,7 @@ onMounted(() => {
         </NuxtLink>
       </li>
       <li class="artist">
-        <NuxtLink to="https://instagram.com/timuism" target="_blank" class="inline-flex bg-green-500 text-black px-2 py-1 rounded-sm hover:scale-110 focus:scale-110 duration-300">
+        <NuxtLink to="https://instagram.com/subatmc" target="_blank" class="inline-flex bg-green-500 text-black px-2 py-1 rounded-sm hover:scale-110 focus:scale-110 duration-300">
           @subatmc
         </NuxtLink>
       </li>
