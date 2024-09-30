@@ -52,8 +52,8 @@ onMounted(() => {
         </NuxtLink>
       </li>
       <li class="artist">
-        <NuxtLink to="https://instagram.com/subatmc" target="_blank" class="inline-flex bg-green-500 text-black px-2 py-1 rounded-sm hover:scale-110 focus:scale-110 duration-300">
-          @subatmc
+        <NuxtLink to="https://instagram.com/heysubatmc" target="_blank" class="inline-flex bg-green-500 text-black px-2 py-1 rounded-sm hover:scale-110 focus:scale-110 duration-300">
+          @heysubatmc
         </NuxtLink>
       </li>
     </ul>
@@ -64,10 +64,9 @@ onMounted(() => {
       </NuxtLink>
     </p>
     
-    <div class="text-white text-center mt-8 opacity-0">
-      <h3 class="inline-flex uppercase font-light tracking-widest text-sm text-yellow border-b border-yellow pb-1 pr-4">The latest news</h3>
-      <p class="mt-2">
-        Nothing to see here yet.
+    <div class="text-white text-center text-opacity-80 mt-12">
+      <p class="mt-2 text-xl tracking-wide">
+        A collective of musical artists based in Baltimore, MD.
       </p>
     </div>
   </div> 
